@@ -1,0 +1,27 @@
+.hero {
+  background: linear-gradient(180deg, #EDEDED 0%, #FFFFFF 100%);
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.hero__heading {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+.hero__span{
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.hero__text{
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 140px;
+  width: 830px;
+}

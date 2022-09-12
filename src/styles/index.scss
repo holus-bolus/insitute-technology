@@ -1,3 +1,6 @@
-
 @use 'reset';
 @use 'general';
+@use 'header';
+@use "hero-page/hero";
+@use "components/button";
+@import "mixins";
