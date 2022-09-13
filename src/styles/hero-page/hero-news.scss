@@ -1,0 +1,45 @@
+.hero-news {
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.hero-news__heading {
+  margin-bottom: 45px;
+}
+
+.hero-news__list {
+  @include flex-center;
+}
+
+.hero-news__item {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-news__image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.hero-news__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.hero-news__date {
+  font-weight: 600;
+  font-size: 20px;
+  line-height:1.6;
+  margin-bottom: 20px;
+}
+
+.hero-news__comment{
+  display: flex;
+  gap: 12px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+}

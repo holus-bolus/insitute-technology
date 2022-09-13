@@ -1,0 +1,30 @@
+.hero-about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hero-about__heading {
+  margin-bottom: 50px;
+}
+
+.hero__list {
+  @include flex-center;
+}
+
+.hero__list-icon {
+  margin-bottom: 20px;
+  width: 110px;
+}
+
+.hero-about__subheading {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 35px;
+}
+
+.hero-about__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
