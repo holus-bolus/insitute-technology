@@ -1,0 +1,40 @@
+.hero-alumni {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: rgba(237, 237, 237, 1);
+}
+
+.hero-alumni__list {
+  @include flex-center;
+}
+
+.hero-alumni__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-alumni__image {
+  margin-bottom: 20px;
+}
+
+.hero-alumni__name {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: rgba(34, 52, 61, 1);
+  margin-bottom: 15px;
+}
+
+.hero-alumni__title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgba(34, 52, 61, 1);
+  margin-bottom: 25px;
+}
+
+.hero-alumni__icons {
+  display: flex;
+  gap: 22px;
+}

@@ -9,6 +9,7 @@
 
 .hero-news__list {
   @include flex-center;
+  margin-bottom: 40px;
 }
 
 .hero-news__item {
