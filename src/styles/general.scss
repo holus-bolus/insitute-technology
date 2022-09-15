@@ -71,7 +71,11 @@ body {
   color: rgba(34, 52, 61, 0.5)
 }
 
-.page-title-section{
+.heading--center {
+  text-align: center;
+}
+
+.page-title-section {
   background-color: rgba(196, 196, 196, 1);
   padding: 60px;
   @include media-mobile {
@@ -100,3 +104,4 @@ body {
   font-weight: 400;
   line-height: 1.5;
 }
+
