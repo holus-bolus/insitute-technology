@@ -1,6 +1,9 @@
 .hero-about {
   padding-top: 50px;
   padding-bottom: 50px;
+  @include media-tablet {
+    padding-bottom: 25px;
+  }
 }
 
 .hero-about__heading {
@@ -9,6 +12,10 @@
 
 .hero__list {
   @include flex-center;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .hero__list-icon {
@@ -21,6 +28,9 @@
   font-weight: 600;
   line-height: 1.5;
   margin-bottom: 35px;
+  @include media-tablet {
+    margin-bottom: 25px;
+  }
 }
 
 .hero-about__text {

@@ -6,6 +6,10 @@
 
 .hero-alumni__list {
   @include flex-center;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .hero-alumni__item {
@@ -24,6 +28,9 @@
   line-height: 1.5;
   color: rgba(34, 52, 61, 1);
   margin-bottom: 15px;
+  @include media-tablet {
+    text-align: center;
+  }
 }
 
 .hero-alumni__title {
@@ -32,6 +39,9 @@
   line-height: 1.6;
   color: rgba(34, 52, 61, 1);
   margin-bottom: 25px;
+  @include media-tablet {
+    text-align: center;
+  }
 }
 
 .hero-alumni__icons {

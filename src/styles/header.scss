@@ -1,4 +1,4 @@
-.header{
+.header {
   padding-top: 40px;
   padding-bottom: 20px;
 }
@@ -6,11 +6,32 @@
 .header__container {
   display: flex;
   gap: 180px;
+  @include media-tablet {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.header__nav {
+  width: 100%;
 }
 
 .header__list {
   @include flex-center;
   gap: 130px;
+  @include media-tablet {
+    display: flex;
+    gap: 30px;
+  }
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .header__link {

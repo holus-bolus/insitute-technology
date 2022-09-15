@@ -2,6 +2,10 @@
   padding-top: 125px;
   padding-bottom: 105px;
   background-color: rgba(237, 237, 237, 0.4);
+  @include media-tablet {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .subscribe__container {
@@ -17,6 +21,10 @@
   font-weight: 400;
   width: 600px;
   text-align: center;
+  @include media-mobile {
+    font-size: 20px;
+    width: 80%;
+  }
 }
 
 .subscribe__label {
@@ -28,6 +36,12 @@
   border: none;
   border-radius: 5px;
   display: flex;
+  @include media-tablet {
+    width: 90%;
+  }
+  @include media-mobile{
+    width: 120%;
+  }
 }
 
 
