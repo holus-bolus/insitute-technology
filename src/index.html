@@ -150,6 +150,7 @@
 </section>
 
 <section class="hero-gallery">
+
     <div class="container hero-gallery__container">
         <h2 class="heading hero-news__heading heading--blue">Form our
             <span class="heading hero-news__heading heading--gray">gallery</span></h2>
@@ -192,7 +193,7 @@
     <div class="container subscribe__container">
         <h2 class="subscribe__heading">Lorem ipsum dolor sit amet, consectetur adcing elit Lorem ipsum dolor </h2>
         <label class="subscribe__label">
-            <input type="text" class="subscribe__label" placeholder="Lorem ipsum dolor">
+            <input type="text" class="subscribe__input" placeholder="Lorem ipsum dolor">
             <button class="subscribe__button">
                 <img src="images/icons/subscribe-envelope-icon.png" alt="An envelope icon" class="subscribe__image">
             </button>
@@ -225,18 +226,21 @@
         </div>
         <div class="footer__find-us-wrapper">
             <h2 class="footer__heading">Find us</h2>
-            <a href="#" class="footer__location">
+            <a href="#" class="footer__location footer__link">
                 <img src="images/icons/compass.png" alt="A Compass icon" class="footer__location-icon">
                 Lorem ipsum dolor siter amet, consectetur adipising.
             </a>
-            <a href="#" class="footer__email">
+            <a href="#" class="footer__email footer__link">
                 <img src="images/icons/email-icon.png" alt="An email icon" class="footer__mail-icon">
                 Info@gmail.com
             </a>
-            <a href="#" class="footer__phone">
+            <a href="#" class="footer__phone footer__link">
                 <img src="images/icons/phone-icon.png" alt="A phone icon" class="footer__phone-icon">
-                +234 805 029 1265
-                <span class="footer__phone-span">+234 907 228 0656</span>
+                <div class="footer__phone-wrapper">
+                    <a href="#" class="footer__phone-link footer__link">
+                        +234 805 029 1265</a>
+                    <span class="footer__phone-span footer__link">+234 907 228 0656</span>
+                </div>
             </a>
         </div>
         <div class="footer__contact-form">
@@ -249,9 +253,14 @@
                 <label class="footer__textarea-label">
                     <textarea class="footer__textarea" placeholder="Lorem ipsum dolor...">
                 </textarea></label>
-                <button class="footer__form-button">Send Message</button>
+                <div class="footer__button-wrapper">
+                    <button class="footer__form-button">Send Message</button>
+                </div>
             </form>
+
         </div>
+    </div>
+    <div class="copyright-wrapper">
         <p class="footer__copyright">Copyright IA-ITI © 2022. All Right Reserved.</p>
     </div>
 </footer>
