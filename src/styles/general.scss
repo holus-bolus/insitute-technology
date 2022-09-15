@@ -74,6 +74,9 @@ body {
 .page-title-section{
   background-color: rgba(196, 196, 196, 1);
   padding: 60px;
+  @include media-mobile {
+    padding: 30px;
+  }
 }
 
 .page-title__container {
@@ -87,6 +90,9 @@ body {
   font-weight: 500;
   line-height: 1.2;
   color: #000000;
+  @include media-mobile {
+    font-size: 35px;
+  }
 }
 
 .text {
