@@ -31,6 +31,10 @@ module.exports = {
             filename: "contact-us.html",
             template: "./src/contact-us.html"
         }),
+        new HtmlWebpackPlugin({
+            filename: "alumni.html",
+            template: "./src/alumni.html"
+        }),
     ],
     module: {
         rules: [
