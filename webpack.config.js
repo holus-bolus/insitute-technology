@@ -20,8 +20,13 @@ module.exports = {
             filename: '[name].[contenthash].css'
         }),
         new HtmlWebpackPlugin({
+            filename: "index.html",
             template: "./src/index.html"
-        })
+        }),
+        new HtmlWebpackPlugin({
+            filename: "about-us.html",
+            template: "./src/about-us.html"
+        }),
     ],
     module: {
         rules: [
