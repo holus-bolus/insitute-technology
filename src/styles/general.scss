@@ -80,6 +80,7 @@ body {
   padding: 60px;
   @include media-mobile {
     padding: 30px;
+    width: 100%;
   }
 }
 

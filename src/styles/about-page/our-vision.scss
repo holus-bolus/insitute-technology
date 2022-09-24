@@ -27,9 +27,20 @@
   }
 }
 
-.our-vision__text-wrapper{
+.our-vision__text-wrapper {
   width: 900px;
   @include media-tablet {
     width: 90%;
   }
+}
+
+.our-vision__img-wrapper {
+  width: 540px;
+  @include media-mobile {
+    width: 70%;
+  }
+}
+
+.our-vision__image {
+  width: 100%;
 }

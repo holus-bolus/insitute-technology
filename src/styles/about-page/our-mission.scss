@@ -27,3 +27,14 @@
     width: 90%;
   }
 }
+
+.our-mission__img-wrapper {
+  width: 550px;
+  @include media-mobile {
+    width: 70%;
+  }
+}
+
+.our-mission__img {
+  width: 100%
+}

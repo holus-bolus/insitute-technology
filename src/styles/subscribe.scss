@@ -5,6 +5,10 @@
   @include media-tablet {
     padding-top: 60px;
     padding-bottom: 60px;
+    width: 100%;
+  }
+  @include media-mobile {
+    width: 100%
   }
 }
 
@@ -40,7 +44,7 @@
     width: 90%;
   }
   @include media-mobile{
-    width: 120%;
+    width: 90%;
   }
 }
 
